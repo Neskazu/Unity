@@ -54,7 +54,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Death.cs" />
-     <Compile Include="Assets\Scripts\DestroyTime.cs" />
      <Compile Include="Assets\Scripts\PlayerMove.cs" />
      <Compile Include="Assets\Scripts\RoadGeneration.cs" />
      <Compile Include="Assets\Scripts\ScoreCount.cs" />

@@ -90,7 +90,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2336921306702992314}
   - component: {fileID: 9221335650678191450}
-  - component: {fileID: -56101575537043877}
   m_Layer: 0
   m_Name: Score
   m_TagString: Score
@@ -129,16 +128,3 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &-56101575537043877
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2261498826514991670}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4982864d0285714295019a07c736867, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LifeTime: 500

@@ -345,7 +345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9adb33e0c607c754181722ca028d1c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movespeed: 5
+  movespeed: 2
   rb: {fileID: 643229883}
 --- !u!50 &643229883
 Rigidbody2D:
@@ -993,7 +993,7 @@ Tilemap:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -6, y: -6, z: 0}
   m_Size: {x: 16, y: 14, z: 1}
-  m_TileAnchor: {x: 0, y: 0, z: 0}
+  m_TileAnchor: {x: 0.5, y: 0.5, z: 0.5}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
     e00: 1

@@ -23,6 +23,6 @@ public class ScoreCount : MonoBehaviour
         {
             Score.text =(int.Parse(Score.text) + 1).ToString();
         }
-
+        Destroy(other.gameObject);
     }
 }

@@ -61,6 +61,6 @@ public class RoadGeneration : MonoBehaviour
     void PlaceScoreObject()
     {
         if(Random.Range(0, 100)<=ScoreObjectChance)
-        Instantiate(ScoreObject,gridLayout.CellToWorld(LastTilePos),Quaternion.identity);
+        Instantiate(ScoreObject,gridLayout.CellToWorld(LastTilePos)+tilemap.tileAnchor,Quaternion.identity);
     }
 }

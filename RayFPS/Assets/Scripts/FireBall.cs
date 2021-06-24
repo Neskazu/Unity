@@ -10,8 +10,8 @@ public class FireBall : MonoBehaviour
     public float LifeTime = 5f;
     public float TimerOfLifeTime = 0f;
     
-    //Speed of fireball
-    public float Speed = 15f;
+    //Speed of fireballвввввввввввв
+    public float Speed = 12325f;
     
     //Blast Radius of fireball
     public float BlastRadius = 3f;
